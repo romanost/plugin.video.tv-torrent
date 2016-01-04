@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tv-torrent" name="TV-Torrent" version="0.0.3" provider-name="Roman Ost.">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>  
+    <import addon="script.module.torrent2http" version="0.0.9"/>
+    <import addon="script.module.requests" version="2.8.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TV-Torrent.org</summary>
+    <description lang="en">Watch movies and episodes from TV-Torrent.org site</description>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
